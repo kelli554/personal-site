@@ -1,0 +1,181 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #ffa500;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: 2px solid #ffa500;
+  box-shadow: 0 0 10px #ffa500;
+}
+
+nav a:hover {
+  color: #fff;
+}  
+
+nav a {
+  color: #ffa500;
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+  font-size: 18px;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ffa500;
+  box-shadow: 0 0 10px #ffa500;
+}
+
+header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+header h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.logo-section img {
+  max-width: 150px; /* set the maximum width of the logo image to 50 pixels */
+  max-height: 150px; /* set the maximum height of the logo image to 50 pixels */
+}
+
+body {
+  background-color: #000;
+  color: #ffa500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+}
+
+#contact {
+  background-color: #000;
+  color: #ffa500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  padding: 20px;
+}
+
+#bio {
+  background-color: #000;
+  color: #ffa500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  padding: 20px;
+}
+
+#image {
+  position: absolute;
+  top: 2%;
+  right: 30px; /* increase the value of the right property */
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border: 2px solid #ffa500;  /* add this line to add a border */
+}    
+
+#image img {
+  width: 100%;
+}
+
+#contactme {
+  background-color: #ffa500; /* change the background color of the button */
+  border: none; /* remove the border of the button */
+  border-radius: 4px; /* round the corners of the button */
+  color: #000; /* change the text color of the button */
+  cursor: pointer; /* change the cursor to a pointer when hovering over the button */
+  font-size: 18px; /* increase the font size of the button text */
+  font-weight: bold; /* make the button text bold */
+  padding: 10px 20px; /* add padding to the button */
+  transition: all 0.3s ease; /* add a transition effect when hovering over the button */
+}
+
+#contactme:hover {
+  background-color: #fff; /* change the background color of the button when hovering over it */
+  color: #ffa500; /* change the text color of the button when hovering over it */
+  transform: scale(1.1); /* scale up the button slightly when hovering over it */
+}
+
+#contactme:active {
+  background-color: #333; /* change the background color of the button when it is active */
+  color: #fff; /* change the text color of the button when it is active */
+  transform: scale(1); /* restore the original size of the button when it is active */
+}  
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px; /* adjust the value of the padding property */
+  text-align: center;
+}
+
+footer a {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+a {
+  color: #B8860B; /* this will make the links the color #B8860B */
+  transition: all 0.5s; /* this will add a 0.5 second transition to all properties of the link when it is hovered over */
+}
+a:hover {
+  color: #ffff00; /* this will change the link color to yellow when the mouse is hovering over it */
+  transform: scale(1.2); /* this will make the link grow by 20% when the mouse is hovering over it */
+}
+
+#back-to-top {
+  background-color: #ffa500;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#back-to-top:hover {
+  background-color: #fff;
+  color: #ffa500;
+  transform: scale(1.1);
+}
+
+#back-to-top:active {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1);
+}
+
+#mode-toggle-container {
+  position: absolute;
+  left: 60px;
+  overflow: hidden;
+  top: 2%;
+}
+
+#mode-toggle {
+  color: #000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #ffa500;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 2px solid #ffa500; 
+}
